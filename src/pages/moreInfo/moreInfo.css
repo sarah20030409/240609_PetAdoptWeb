@@ -1,0 +1,137 @@
+.More_Page .Layout{
+    display: flex;
+    justify-content: start;
+    height: 100vh;
+}
+
+/* ======= Back-Btn-Area =======  */
+.More_Page .More_backBtn{
+    width: 10%;
+    padding-top: 3%;
+    margin-left: 5%;
+}
+
+/* ======= Left-Info-Area =======  */
+.More_Page .Left_Info{
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    padding-top: 5%;
+    padding-right: 5%;
+}
+
+.More_Page .Left_Info .name{
+    font-size: 40px;
+    color: #594029;
+    font-weight: 600;
+    margin-bottom:7%;
+}
+
+.More_Page .Left_Info .imgOutFrame{
+    /* width: 100%; */
+    max-width:360px;
+    max-height: 300px;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-bottom: 5%;
+}
+
+.More_Page .Left_Info .InfoImg{
+    border-radius: 20px;
+    width: 100%;
+    object-fit: contain;
+}
+
+
+/* 資訊*/
+.More_Page .Left_Info .InfoText{
+    font-size: 20px;
+    color: #594029;
+    margin-bottom:7%;
+    line-height: 1.8;
+}
+
+.More_Page .Left_Info .InfoText .bold{
+    font-weight: 600;
+}
+
+.More_Page .Left_Info .InfoText .info{
+    line-height: 0.5;
+    font-size: 18px;
+    color: #8b6745;
+    width: 350px;
+    line-height: 1.5;
+    font-weight: 600;
+    background-color: #fffcfa;
+    padding: 5px;
+    border-radius: 5px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+/* ======= Right-Comments-Area =======  */
+.More_Page .Right_Comments{
+    width: 40%;
+    background-color: #594029;
+    padding-top: 5%;
+    padding-left: 5%;
+}
+
+.More_Page .Right_Comments .comments_Title h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 600;
+    text-align: left;
+    margin-bottom: 4%;
+}
+
+
+/* commentBlock */
+.More_Page .Right_Comments .AllComments{
+    height: 430px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin-bottom: 30px;
+}
+
+.More_Page .Right_Comments .AllComments .commentBlock{
+    background-color: #fff;
+    width: 450px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 25px 0px;
+    font-size: 17px;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    line-height: 1.5;
+}
+
+/* CommentTextarea */
+.More_Page .Right_Comments .commentInput{
+    height: 20px;
+    width: 65%;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 100px;
+    border: none;
+    margin-right: 20px;
+}
+
+.More_Page .Right_Comments .sendBTN{
+    transition: 0.3s;
+    background-color: #F6EADC;
+    border: none;
+    border-radius: 100px;
+    padding: 5px 15px 8px 15px;
+    color: #594029;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 26px;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.More_Page .Right_Comments .sendBTN:hover{
+    transition: 0.3s;
+    transform: scale(1.2);
+}

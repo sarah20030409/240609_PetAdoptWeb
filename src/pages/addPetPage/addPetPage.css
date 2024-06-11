@@ -1,0 +1,39 @@
+.addPet_Page .formLayout{
+    display: flex;
+    justify-content: space-between;
+}
+
+.addPet_Page .inputBlock{
+    margin-right: 20px;
+}
+
+.addPet_Page .addBtn{
+    transition: 0.5s;
+    font-family:monospace;
+    border: 12px solid #836E5B;
+    background-color: #EFBB5E;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color:#836E5B;
+    border-radius: 100px;
+    padding:0px 40px 5px 50px ;
+    margin: 50px 40%;
+    cursor: pointer;
+}
+
+.addPet_Page .addBtn:hover{
+    transition: 0.5s;
+    background-color: #bc8526;
+    color: #3d2f23;
+    border-color: #3d2f23;
+}
+
+.addPet_Page .informationTable{
+    height: 50%;
+}
+
+.addPet_Page .informationTable .inputBlock{
+    height: 50%;
+    padding-top: 10px;
+}

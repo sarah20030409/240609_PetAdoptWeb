@@ -1,0 +1,62 @@
+.ls_page{
+    padding: 30px;
+}
+
+.ls_page h1{
+    font-family: monospace;
+    font-size: 140px;
+    font-weight: 900;
+    color: #836E5B;
+    transform:scaleY(0.85);
+    text-align: center;
+}
+
+.ls_page .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.ls_page .formStyle label{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: monospace;
+    font-size: 30px;
+    font-weight: 300;
+    color: #836E5B;
+    display: block;
+}
+
+.ls_page .formStyle .inputBlock{
+    width: 450px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0px solid #836E5B;
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+.ls_page .formStyle .genderBlock{
+    padding: 0px 10px;
+}
+
+.ls_page .formStyle .goBtn{
+    transition: 0.5s;
+    font-family:monospace;
+    border: 12px solid #836E5B;
+    background-color: #EFBB5E;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 5px;
+    color:#836E5B;
+    border-radius: 100px;
+    padding:0px 40px 5px 50px ;
+    margin: 50px 26%;
+}
+
+.ls_page .formStyle .goBtn:hover{
+    transition: 0.5s;
+    background-color: #bc8526;
+    color: #3d2f23;
+    border-color: #3d2f23;
+}

@@ -1,0 +1,122 @@
+.adopt_Page{
+    display: flex;
+    justify-content:start;
+}
+
+.adopt_Page .leftArea{
+    position: fixed;
+    background-color: #48321D;
+    width: 27%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 40px;
+    padding-left: 50px;
+}
+
+.adopt_Page .rightArea{
+    padding: 40px;
+    margin-left: 27%;
+}
+
+/* LEFT */
+/* ==== user text ==== */
+.leftArea .userTitle h1{
+    font-weight: 400;
+    font-size: 40px;
+    color: #fff;
+}
+
+
+
+/* ===== pet list ==== */
+.adopt_Page .yourPetsTable{
+    border-radius: 20px;
+    /* padding: 20px; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.adopt_Page .yourPetsTable h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    background-color:#D49B36;
+    padding: 10px;
+    border-radius: 20px 20px 0px 0px ;
+}
+
+.adopt_Page .yourPetsList{
+    background-color: #EFBB5E;
+    height: 330px;
+    overflow: scroll;
+    scrollbar-width: none;
+    border-radius: 0px 0px 20px 20px ;
+    padding-top: 1px;
+}
+
+
+
+/* ==== logout btn ==== */
+.adopt_Page .logout{
+    transition: 0.5s;
+    font-family:monospace;
+    border: 12px solid #836E5B;
+    background-color: #EFBB5E;
+    font-size: 48px;
+    font-weight: 900;
+    color:#836E5B;
+    border-radius: 100px;
+    padding:0px 30px 5px 40px ;
+}
+
+.adopt_Page  .logout:hover{
+    transition: 0.5s;
+    background-color: #bc8526;
+    color: #3d2f23;
+    border-color: #3d2f23;
+}
+
+/* RIGHT */
+.rightArea{
+    width: 100%;
+}
+
+.rightArea .upArea{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.rightArea .title{
+    font-size: 60px;
+    color: #77573A;
+    font-weight: 900;
+    letter-spacing: 0px;
+}
+
+.rightArea .addPet{
+    transition: 0.5s;
+    font-family:monospace;
+    border: 12px solid #836E5B;
+    background-color: #EFBB5E;
+    font-size: 48px;
+    font-weight: 900;
+    color:#836E5B;
+    border-radius: 100px;
+    padding:0px 30px 0px 40px ;
+}
+
+.rightArea .addPet:hover{ 
+    transition: 0.5s;
+    background-color: #bc8526;
+    color: #3d2f23;
+    border-color: #3d2f23;
+}
+
+/* RIGHT All Pet List */
+.rightArea .allPets{
+    display: flex;
+    flex-wrap: wrap;
+}

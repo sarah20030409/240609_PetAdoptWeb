@@ -1,0 +1,107 @@
+.petsCard{
+    transition: 0.3s;
+    width: 303px;
+    margin: 20px;
+}
+
+/* .petsCard:hover{
+    transition: 0.3s;
+    transform: scale(1.01);
+    cursor: pointer;
+} */
+
+.petsCard .cardBackground{
+    background-color: #77573A;
+    padding: 20px 20px;
+    border-radius: 20px;
+}
+
+/* Img layout */
+.petsCard .imgOutFrame{
+    max-width:260px;
+    max-height: 200px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+.petsCard .cardImg{
+    border-radius: 20px;
+    width: 100%;
+    object-fit: contain;
+}
+
+/* pet info */
+.petsCard .bold{
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+
+.petsCard .petInfo{
+    margin-top: 0px;
+}
+
+.petsCard p{
+    font-size: 20px;
+    color: #fff;
+    margin: 10px 0;
+    letter-spacing: -0.5px;
+}
+
+/* adopt BTN */
+.petsCard .btnMiddle{
+    display: flex;
+    justify-content: start;
+    align-items: end;
+}
+.petsCard .adoptBtn{
+    transition: 0.3s;
+    background-color: #fff;
+    border: none;
+    font-size: 24px;
+    color: #836E5B;
+    font-weight: 900;
+    padding: 5px 20px;
+    margin-top: 20px;
+    border-radius: 100px;
+}
+.petsCard .adoptBtn::after{
+    content: ' !';
+}
+
+.petsCard .adoptBtn.clicked{
+    transition: 0.3s;
+    background-color: #858585;
+    color: #fff;
+}
+.petsCard .adoptBtn.clicked::after{
+    content: 'ED';
+}
+
+.petsCard .adoptBtn.clicked:hover{
+    transition: 0.3s;
+    background-color: #858585;
+    color: #fff;
+}
+
+.petsCard .adoptBtn:hover{
+    transition: 0.3s;
+    background-color: #d8d8d8;
+    color: #634e3b;
+}
+
+.petsCard .more{
+    transition: 0.3s;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.petsCard .more:hover{
+    transition: 0.3s;
+    transform: translateX(3px);
+    cursor: pointer;
+}
+
+.petsCard .NoOwner::after{
+    content: " No owner yet!";
+    text-decoration:underline;
+}

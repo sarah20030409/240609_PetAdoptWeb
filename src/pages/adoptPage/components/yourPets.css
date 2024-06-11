@@ -1,0 +1,24 @@
+.yourPets_item{
+    transition: 0.3s;
+    background-color: #fff;
+    margin: 15px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.yourPets_item:hover{
+    transition: 0.3s;
+    background-color: #f8f8f8;
+}
+
+.yourPets_item .petInfo p{
+    background-color: #E3DBCD;
+    margin-top: 5px;
+    padding: 1px 5px;
+    border-radius: 5px;
+}

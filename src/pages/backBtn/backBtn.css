@@ -1,0 +1,19 @@
+.backBtn{
+    transition: 0.5s;
+    font-family:monospace;
+    border: 12px solid #836E5B;
+    background-color: #EFBB5E;
+    font-size: 48px;
+    font-weight: 900;
+    color:#836E5B;
+    border-radius: 100px;
+    padding:0px 17px ;
+    padding-bottom: 5px;
+}
+
+.backBtn:hover{
+    transition: 0.5s;
+    background-color: #bc8526;
+    color: #3d2f23;
+    border-color: #3d2f23;
+}
